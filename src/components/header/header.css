@@ -1,0 +1,59 @@
+.sticky-box {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: rgb(100, 90, 73);
+}
+
+.header {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(100, 90, 73);
+  position: sticky;
+  top: 3rem;
+}
+
+.title-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  bottom: 0rem;
+}
+
+.main-title {
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+
+  font-size: 10vh;
+}
+
+.logo {
+  width: auto;
+  height: 40vh;
+  position: relative;
+  left: 3vw;
+  border-radius: 10%;
+}
+
+.admin-btn {
+  height: 10%;
+  background: rgb(218, 236, 218);
+  border-radius: 10%;
+  position: relative;
+  bottom: 55%;
+  margin: 10px;
+}
+
+.admin-pass-input {
+  height: 10%;
+  width: 200px;
+  background: rgb(218, 236, 218);
+  position: relative;
+  bottom: 55%;
+}

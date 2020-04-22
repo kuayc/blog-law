@@ -1,14 +1,14 @@
 create table users
 (
     user_id serial primary key,
-    email varchar(150),
-    password varchar(250),
+    email varchar(100),
+    password varchar(200)
 );
 
 create table post
 (
     post_id serial primary key,
     user_id int references users
-(user_id),
+    (user_id),
     post_url text
 );

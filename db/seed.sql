@@ -5,8 +5,7 @@ create table users
     password varchar(250),
 );
 
-create table
-if not exists post
+create table post
 (
     post_id serial primary key,
     user_id int references users
